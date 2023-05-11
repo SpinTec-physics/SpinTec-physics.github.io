@@ -48,6 +48,12 @@
   .desktop-phds{
     display: none;
   }
+  #sircrd{
+    overflow-x: auto;
+    /* min-width:300px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
     </style>
@@ -117,13 +123,18 @@
                 </div>
             </div>
             <div class="col-9 col-xs-12 mx-auto mb-2 sir-info" style="min-width: 300px;">
-                <div class="card">
-                    <div class="m-4">
+                <div class="card" id="sircrd">
+                    <div class="row">
+                    <div class="col-auto m-4">
                         <p class="sir-profile-txt"><b>Full Name:</b> Dr. Vijay Raj Singh</p>
                         <p class="sir-profile-txt"><b>Work: </b> Associate Professor, Central University of South Bihar</p>
                         <p class="sir-profile-txt"><b>Location:</b> Gaya, Bihar, <b>Pincode:</b> 824326</p>
                         <p class="sir-profile-txt"><b>Contact:</b> +91-7006396379</p>
                         <p class="sir-profile-txt"><b>E-mail:</b> vijayraj@cusb.ac.in</p>
+                    </div>
+                    <div class="col-auto py-3 px-auto mx-auto">
+                        <a href="members/VR Singh CV.pdf" target="_blank" download="Dr. Vijay Raj Singh Curriculum Vitae.pdf"><button class="btn btn-outline-primary">View CV</button></a>
+                    </div>
                     </div>
                 </div>
             </div>
